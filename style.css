@@ -1,5 +1,57 @@
-@media screen and (max-width: 600px) {
-   .erez {
-       background-color: red;
+@media screen and (min-width: 320px) {
+
+    .erez {
+        height: 45vh;
+    }
+   .erez img {
+       width: 100%;
+       height: 100%;
    }
+
+   .erez_avatar img {
+       border-radius: 50%;
+       width: 50%;
+       position: absolute;
+       height: 40vw;
+       left: 25vw;
+       top: 15vw;
   }
+
+  .name {
+      position: absolute;
+      left: 30vw;
+      top: 39vh;
+      color: white;
+  }
+
+  nav {
+    background-color: purple;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .nav {
+      display: flex;
+      justify-content: space-between;
+      color: white;
+      align-items: center;
+  }
+
+  .home {
+      padding-right: 65%;
+  }
+  .second_nav {
+      color: white;
+      display: none;
+  }
+
+  .section {
+      padding-left: 8.5%;
+  }
+
+  .er_image{
+      position: absolute;
+      margin-top: 1px;
+  }
+}
