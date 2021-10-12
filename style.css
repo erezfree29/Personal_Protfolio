@@ -1,7 +1,7 @@
 @media screen and (min-width: 320px) {
 
     .erez {
-        height: 45vh;
+        height: 40vh;
     }
    .erez img {
        width: 100%;
@@ -20,9 +20,25 @@
   .name {
       position: absolute;
       left: 30vw;
-      top: 39vh;
+      top: 30vh;
       color: white;
   }
+
+  .web_developer,
+  .ruby_developer,
+  .java_script {
+      position: absolute;
+      left: 46vw;
+      top: 38vh;
+      color: white;
+      animation: marquee 3s linear infinite;
+    }
+
+    .ruby_developer,
+    .java_script {
+        display: none;
+    }
+  
 
   nav {
     background-color: purple;
@@ -53,5 +69,14 @@
   .er_image{
       position: absolute;
       margin-top: 1px;
+  }
+
+  .erez_avatar {
+    overflow: hidden;
+  }
+  
+  @keyframes marquee {
+    from {transform: translateX(-100%); }
+    to {transform: translateX(100%); }
   }
 }
