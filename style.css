@@ -1,5 +1,5 @@
 @media screen and (max-width: 600px) {
-   .erez img {
-       width: 100%;
+   .erez {
+       background-color: red;
    }
   }
