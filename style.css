@@ -1,7 +1,5 @@
-@media screen and (min-width: 320px) {
-
     .erez {
-        height: 40vh;
+        height: 43vh;
     }
    .erez img {
        width: 100%;
@@ -79,4 +77,50 @@
     from {transform: translateX(-100%); }
     to {transform: translateX(100%); }
   }
-}
+
+  .icons {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      width: 100vw;
+      top:42vh;
+      color: white;
+  }
+
+  .fa-github,
+  .fa-linkedin-in,
+  .fa-medium {
+    padding-right: 8%;
+  }
+
+  .bottom_container {
+      background-color:steelblue;
+      height: 40vh;
+  }
+
+  .skills,
+  .languages {
+      color: black;
+      display: flex;
+      justify-content: center;
+  }
+
+  .cards_row {
+      display: flex;
+      justify-content: center;
+  }
+
+  .card {
+    border-radius: 15px;
+    border:2px solid red;
+    padding: 20px;
+    width: 75px;
+    height: 100px;
+    background-color: white;
+  }
+
+  .card_one,
+  .card_two,
+  .card_three {
+     margin-right: 2%;
+  }
