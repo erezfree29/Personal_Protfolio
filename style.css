@@ -108,6 +108,7 @@
   .cards_row {
       display: flex;
       justify-content: center;
+      
   }
 
   .card {
@@ -117,6 +118,7 @@
     width: 75px;
     height: 100px;
     background-color: white;
+    font-size: 10px;
   }
 
   .card_one,
@@ -124,3 +126,14 @@
   .card_three {
      margin-right: 2%;
   }
+
+  .card_top {
+      display: flex;
+      justify-content: center;
+  }
+
+ .licon {
+     width: 110%;
+     margin-top: 25%;
+     height: 40px;
+ }
