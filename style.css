@@ -131,23 +131,23 @@
     height: 100px;
     background-color: white;
     font-size: 12px;
-  }
-
-  .card_one,
-  .card_two,
-  .card_three {
-     margin-right: 2%;
+    position: relative;
+    margin-top: 1.5%;
+    margin-right: 1%;
   }
 
   .card_top {
       display: flex;
       justify-content: center;
+      
   }
 
  .licon {
-     width: 100%;
-     margin-top: 25%;
-     height: 50%;
+     width: 80%;
+     height: 60%;
+     top:30%;
+     position: absolute;
+
  }
 
  .card_bottom {
@@ -158,10 +158,6 @@
  .category {
      background-color: tomato;
      display: flex;
- }
-
- .tech {
-     margin-right: 60px;
  }
 
  .projects_heading {
@@ -222,6 +218,37 @@ h2 {
     height: 120px !important;
 }
 
+.row {
+    width: 70%;
+    margin-left: 15%;
+    
+}
+@media screen and (min-width: 1024px) {
+    .erez_avatar img {
+        height: 12vw;
+        width: 18%;
+        top:5vh;
+        left: 45vw;
+    }
+
+    .name {
+        left: 48vw;
+    }
+
+    .inner_image{
+        height: 500px !important;
+    }
+    
+    .football_app {
+        height: 500px !important;
+    }
+
+    .row {
+        margin-left: 25%;
+        width: 50%;
+    }
+
+  }
 
 
 
