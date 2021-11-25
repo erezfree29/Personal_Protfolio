@@ -1,0 +1,51 @@
+ <div class="card card_one">
+                <div class="card_top">Html</div>
+        
+                    <img 
+                    src="https://res.cloudinary.com/erezfriemagor/image/upload/v1634314368/919827.png" alt="html" class="licon">
+              
+            </div>
+            <div class="card card_two">
+                <div class="card_top">Sql</div>
+                    
+                    <img 
+                    src="https://res.cloudinary.com/erezfriemagor/image/upload/v1634314472/sql-icon-major-database-format-vector-illustration-color-version-208686087.jpg" alt="sql" class="licon">
+              
+            </div>
+            <div class="card card_three">
+                <div class="card_top">Redux</div>
+        
+                    <img 
+                    src="https://res.cloudinary.com/erezfriemagor/image/upload/v1634316354/redux-283024.png" alt="redux" class="licon">
+              
+            </div>
+            <div class="card card_four">
+                <div class="card_top">Markdown</div>
+        
+                    <img 
+                    src="https://res.cloudinary.com/erezfriemagor/image/upload/v1634315761/logo.png" alt="css" class="licon">
+              
+            </div>
+        </div>
+        </div>
+
+
+
+
+        <div class="languages"><h5>Testing</h5></div>
+        <div class="cards_row">  
+          <div class="card col-lg-2">
+              <div class="card_top">Jest</div>
+      
+                  <img 
+                  src="https://res.cloudinary.com/erezfriemagor/image/upload/v1634374138/rails-282490.png" alt="rails" class="licon">
+            
+          </div>
+          <div class="card col-lg-2">
+              <div class="card_top">Rspec</div>
+      
+                  <img 
+                  src="https://res.cloudinary.com/erezfriemagor/image/upload/v1634375595/1_HTlVuEsoG5tycU1YSFoatQ.png" alt="Rspec" class="licon">
+            
+          </div>
+        </div>
