@@ -22,9 +22,7 @@
       color: white;
   }
 
-  .web_developer,
-  .ruby_developer,
-  .java_script {
+  .animation {
       position: absolute;
       left: 46vw;
       top: 38vh;
@@ -33,17 +31,30 @@
     }
 
     .ruby_developer,
-    .java_script {
+    .java_script,
+    .react,
+    .redux {
         display: none;
     }
   
 
   nav {
     background-color: purple;
-    position: sticky;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .sticky {
+    position: fixed;
     top: 0;
+    width: 100%;
     z-index: 100;
   }
+
+  .sticky + .nav {
+    padding-top: 60px;
+  }
+
 
   .nav {
       display: flex;
@@ -95,12 +106,12 @@
 
   .bottom_container {
       background-color:steelblue;
-      height: 40vh;
+      margin-top: -2%;
   }
 
   .skills,
   .languages {
-      color: black;
+      color: white;
       display: flex;
       justify-content: center;
   }
@@ -108,17 +119,18 @@
   .cards_row {
       display: flex;
       justify-content: center;
-      
+      margin-bottom: 3%;
+
   }
 
   .card {
     border-radius: 15px;
     border:2px solid red;
-    padding: 20px;
+    padding: 8px;
     width: 75px;
     height: 100px;
     background-color: white;
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .card_one,
@@ -133,7 +145,83 @@
   }
 
  .licon {
-     width: 110%;
+     width: 100%;
      margin-top: 25%;
-     height: 40px;
+     height: 50%;
  }
+
+ .card_bottom {
+     background-color: turquoise;
+     width: 100%;
+ }
+
+ .category {
+     background-color: tomato;
+     display: flex;
+ }
+
+ .tech {
+     margin-right: 60px;
+ }
+
+ .projects_heading {
+     display: flex;
+     justify-content: center;
+     color: white;
+ }
+
+ .c_container {
+     width: 60%;
+     margin-left: 20%;
+     box-shadow: 5px 5px 20px;
+     border: solid 4px;
+     border-color: red yellow green hsla(60, 90%, 50%, .8);
+ }
+
+ footer {
+     position: fixed;
+     bottom: 0;
+     width: 100vw;
+     height: 5vh;
+     border-top: 2px solid white;
+     background-color: purple;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 6vh;
+ }
+
+.footer_icons {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+  margin-top: 7%;  
+}
+
+.icons {
+    margin-top: 3%;
+}
+
+.projects {
+   padding-bottom: 15%;
+
+}
+
+.inner_image{
+    height: 120px !important;
+}
+
+.football_app {
+    height: 120px !important;
+}
+
+
+
+
