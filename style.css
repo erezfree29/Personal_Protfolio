@@ -44,6 +44,12 @@
     width: 100%;
   }
 
+  nav  a{
+    color: white;
+    text-decoration: none;
+
+  }
+
   .sticky {
     position: fixed;
     top: 0;
@@ -69,7 +75,13 @@
   .second_nav {
       color: white;
       display: none;
+      float: left;
   }
+
+.second_nav a {
+    text-decoration: none;
+    color: white;
+}
 
   .section {
       padding-left: 8.5%;
@@ -223,6 +235,10 @@ h2 {
     margin-left: 15%;
     
 }
+
+.links {
+    display: none;
+}
 @media screen and (min-width: 1024px) {
     .erez_avatar img {
         height: 12vw;
@@ -246,6 +262,21 @@ h2 {
     .row {
         margin-left: 25%;
         width: 50%;
+    }
+
+    .fa-bars {
+        display: none !important;
+    }
+
+    .links {
+        display: flex;
+        justify-content: space-between;
+        width: 6%;
+        margin-right: 4%;
+    }
+    .links a {
+        color: white;
+        text-decoration: white;
     }
 
   }
