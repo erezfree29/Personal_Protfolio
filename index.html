@@ -10,17 +10,19 @@
 <body>
 <nav>
     <div class="nav">
-        <div class="home">home</div>
-        <i class="fas fa-bars" style="color:white"></i> 
+        <a href="#erez"><div class="home">home</div></a>
+        <i class="fas fa-bars" style="color:white"></i>
+        <div class="links">
+            <a href="#a_l" ><div class="section">Skills</div></a>
+            <a href="#projects"><div class="section">Projects</div></a> 
+        </div>
     </div>
     <div class="second_nav">
-        <div class="section">Skills</div>
-        <div class="section">Projects</div>
-        <div class="section">Experience</div>
-        <div class="section">Education</div>
+        <a href="#a_l" ><div class="section">Skills</div></a>
+        <a href="#projects"><div class="section">Projects</div></a>
     </div>        
 </nav>    
-<div class="erez">
+<div class="erez" id="erez">
     <img src="https://res.cloudinary.com/erezfriemagor/image/upload/v1634043535/pexels-josh-sorenson-1714208_1.jpg" alt="computer">
     <div class="erez_avatar">
         <img src="https://res.cloudinary.com/erezfriemagor/image/upload/v1633457873/izwxjklmmdls1svzfpc7.jpg" alt="erez" class="er_image">
@@ -40,7 +42,7 @@
 </div>
 <div class="bottom_container">
         <div class="skills"><h2>SKILLS</h2></div>
-        <div class="languages"><h5>Languages and libraries</h5></div>
+        <div class="languages"><h5 id="a_l">Languages and libraries</h5></div>
         <div class="cards">
           <div class="cards_row row">  
             <div class="card  col-lg-2 col-4">
@@ -167,7 +169,7 @@
           </div>
       
 
-        <div class="projects">
+        <div class="projects" id="projects">
             <div class="projects_heading"><h2>Projects</h2></div>
             <div class="c_container">
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
